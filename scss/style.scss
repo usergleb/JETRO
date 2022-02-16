@@ -1,7 +1,16 @@
 // ------------- Connected reset-style file   ------------- // 
 @import "reset_styles";
 
+//======================== Functions ===============================//
 
+@function toRem($number) {
+    $result: ($number/16) + rem;
+    @return $result;
+}
+@function toEm($number) {
+    $result: ($number/16) + em;
+    @return $result;
+}
 
 
 // -------------- Настройка основного шрифта и размера ---------------- //
@@ -31,10 +40,17 @@ $col3: rgb(31, 31, 48);
 @import "main";
 @import "footer";
 
+html{
+}
+
 body{
     font-family: 'Bebas Neue';
     height: 100%;
-    overflow: hidden;
+    //overflow: hidden;
+    
+}
+.wrapper{
+    min-height: 100vh;
 }
 
 

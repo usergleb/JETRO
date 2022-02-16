@@ -1,19 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>Document</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/style.css">
+   <link
+   rel="stylesheet"
+   href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+   />
+   <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
 
         <!-- Шапка Сайта  -->
-   <header class="header">
-      <div class="header conteiner">
-         
+   <header class="">
+      <div class="header__conteiner conteiner">
+         <div class="header__title">
+            <h1>JET<span>RO</span></h1>
+         </div>
+
+         <div class="header__burger">
+            <span>
+
+            </span>
+         </div>
+
+         <div class="header__menu">
+            <ul class="header__list">
+               <li>
+                  <a href="#">
+                     Home
+                  </a>
+               </li>
+
+                <li>
+                  <a href="#">
+                     About  Us
+                  </a>
+               </li>
+               
+               <li>
+                  <a href="#">
+                     Blog
+                  </a>
+               </li>
+               
+               <li>
+                  <a href="#">
+                     Portfolio
+                  </a>
+               </li>
+               
+               <li>
+                  <a href="#">
+                     Contact  US
+                  </a>
+               </li>
+               
+            </ul>
+         </div>
       </div>
       
    </header>
@@ -22,11 +69,218 @@
 
         <!-- Main часть сайта -->
    <main class="main">
-      <div class="main conteiner">
+      <div class="main__conteiner conteiner">
+
+         <div class="swiper">
+
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+               <div class="swiper-slide first-slide">
+                  <img src="/img/content-img/kung-fu.jpg" alt="">
+                  <div class="swiper__clue">
+                     <div class="swiper__title">
+                        Kung Fu Panda
+                     </div> 
+                     <div class="swiper__text">
+                        Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. 
+                     </div>
+                  </div>
+               </div>
+
+               <div class="swiper-slide second-slide">
+                  <img src="/img/content-img/gravity-fols.jpg" alt="">
+                  <div class="swiper__clue">
+                     <div class="swiper__title">
+                        Gravity Falls
+                     </div> 
+                     <div class="swiper__text">
+                        Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. 
+                     </div>
+                  </div>
+               </div>
+
+               <div class="swiper-slide third-slide">
+                  <img src="/img/content-img/simpsons.jpg" alt="">
+                  <div class="swiper__clue">
+                     <div class="swiper__title">
+                        simpsons
+                     </div> 
+                     <div class="swiper__text">
+                        Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. 
+                     </div>
+                  </div>
+               </div>
+            
+            </div>          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+      
+         </div>
+
+
+         <div class="advantages">
+
+            <div class="advantages__column card">
+               <div class="card__images">
+                  <div class="card__images-item">
+                     <img src="img/content-img/img.jpg" alt="">
+                  </div>
+                  <div class="card__images-item">
+                     <img src="/img/content-img/img2.jpg" alt="">
+                  </div>
+               </div>
+               <div class="card__info">
+                  <div class="card__info-body">
+                     <div class="card__icon">
+                        <img src="/img/icon/settings.svg" alt="">
+                     </div>
+                     <div class="card__title">
+                        Check  out  my  latest <br> portfolio  items
+                     </div>
+                  </div>
+                  <div class="card__text">
+                     Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.
+                  </div>
+               </div>
+               <a href="#" class="button">
+                  <span>
+                     more
+                  </span>
+               </a>
+            </div>
+
+            <div class="advantages__column card">
+               <div class="card__images">
+                  <div class="card__images-item">
+                     <img src="/img/content-img/img3.jpg" alt="">
+                  </div>
+                  <div class="card__images-item">
+                     <img src="/img/content-img/img4.jpg" alt="">
+                  </div>
+               </div>
+               <div class="card__info">
+                  <div class="card__info-body">
+                     <div class="card__icon">
+                        <img src="/img/icon/accept.svg" alt="">
+                     </div>
+                     <div class="card__title">
+                        Offer  Top  Notch  Quality <br> Work  &  Services
+                     </div>
+                  </div>
+                  <div class="card__text">
+                     Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.
+                     Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.
+                  </div>
+               </div>
+               <a href="#" class="button">
+                  <span>
+                     more
+                  </span>
+               </a>
+            </div>
+
+            <div class="advantages__column card last">
+               <div class="card__images">
+                  <div class="card__images-item">
+                     <img src="/img/content-img/img5.jpg" alt="">
+                  </div>
+                  <div class="card__images-item">
+                     <img src="/img/content-img/img6.jpg" alt="">
+                  </div>
+               </div>
+               <div class="card__info">
+                  <div class="card__info-body">
+                     <div class="card__icon">
+                        <img src="/img/icon/profile.svg" alt="">
+                     </div>
+                     <div class="card__title">
+                        Follow  Me  on  Twitter, <br> Facebook  &  Pinterest
+                     </div>
+                  </div>
+                  <div class="card__text">
+                     Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis. Aenean sodales nibh non lectus tempor a interdum justo ultricies.
+                  </div>
+               </div>
+               <a href="#" class="button last_button">
+                  <span>
+                     more
+                  </span>
+               </a>
+            </div>
+         </div>
 
       </div>
    </main>
 
+   <div class="fullscreen-img">
+   </div>
+
+   <section class="works">
+      <div class="conteiner">
+         <div class="works__header"> 
+            <h2>
+               Recent  Works
+            </h2>
+            <div class="works__line">
+      
+            </div>
+         </div>
+
+         <div class="works__body">
+
+            <div class="works__column">
+               <div class="works__image">
+                  <img src="/img/content-img/img7.jpg" alt="">
+               </div>
+               <p class="works__title">
+                  Character  Design
+               </p>
+               <p class="works__description">
+                  June 15, 2012
+               </p>
+            </div>
+
+            <div class="works__column">
+               <div class="works__image">
+                  <img src="/img/content-img/img2.jpg" alt="">
+               </div>
+               <p class="works__title">
+                  Brochure  Design
+               </p>
+               <p class="works__description">
+                  June 15, 2012
+               </p>
+            </div>
+
+            <div class="works__column">
+               <div class="works__image">
+                  <img src="/img/content-img/social.jpg" alt="">
+               </div>
+               <p class="works__title">
+                  Social Media Buttons
+               </p>
+               <p class="works__description">
+                  June 15, 2012
+               </p>
+            </div>
+
+            <div class="works__column">
+               <div class="works__image">
+                  <img src="/img/content-img/websites.jpg" alt="">
+               </div>
+               <p class="works__title">
+                  10 Amazing Websites
+               </p>
+               <p class="works__description">
+                  June 15, 2012
+               </p>
+            </div>
+
+         </div>
+      </div>
+   </section>
 
         <!-- Футер сайта -->
    <footer class="footer">
@@ -36,7 +290,7 @@
    </footer>
 
 </div>
-   <script src="/js/slider/slider.js"></script>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
    <script src="/js/script.js"></script>
 </body>
 </html>

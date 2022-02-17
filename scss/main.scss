@@ -125,6 +125,7 @@ main{
     }
 
     &__icon {
+        flex-grow: 1;
         position: relative;
         top: 7px;
         margin-bottom: toRem(40);

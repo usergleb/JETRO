@@ -125,13 +125,11 @@ main{
     }
 
     &__icon {
-        flex-grow: 1;
         position: relative;
         top: 7px;
         margin-bottom: toRem(40);
         margin-right: toRem(24);
             img{
-                display: block;
                 max-width: 100%;
             }
     }
@@ -150,6 +148,7 @@ main{
 }
 .card__info-body{
     display: flex;
+    padding: 5px;
     //align-items: center;
 }
 .button {

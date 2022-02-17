@@ -128,6 +128,11 @@ main{
         top: 4px;
         margin-bottom: toRem(40);
         margin-right: toRem(24);
+            img{
+                padding: 2px;
+                max-width: 100%;
+                height: 100%;
+            }
     }
     &__title {
         font-size: toRem(20);
